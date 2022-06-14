@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio | Javiera Rodríguez</title>
+
+    <!--CSS Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Lato:400,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/f5cdbd7084.js" crossorigin="anonymous"></script>
+
+    <!--Animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--Mi estilo CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-lg fixed-top m-auto">
+        <div class="container d-flex justify-content-end justify-md-content-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav font-weight-bold">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#startSection">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myExperience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myProjects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lastLink" href="#socialNetworks" tabindex="-1"
+                            aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="startSection" class="start_section px-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 id="text" class="welcomeText text-center font-weight-bold px-4"></h1>
+                </div>
+
+                <div class="col-12 d-md-none text-center px-4">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btnInfo btn btn-outline-light btn-block" data-toggle="modal"
+                        data-target="#exampleModalLong">About me</button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modalBackground modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalScrollableTitle">About me</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        class="closeSpan" aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container_badges container text-center">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-8 p-3">
+                                            <img class="imgModal img-fluid rounded-circle pb-2"
+                                                src="assets/img/profile pic.png" alt="Imagen perfil">
+                                        </div>
+                                        <div class="col-12 pb-2">
+                                            <p>
+                                                I started studying to be a frontend developer this year (2022) as a way
+                                                to increase my knowledge and to try new things. It was a big challenge to
+                                                learn new concepts but I wasn't disappointed at the end. Currently, I
+                                                specialize in JavaScript, framework Vue.js and other tools such as
+                                                Bootstrap, CSS, Sass, Github, etc.
+                                            </p>
+                                        </div>
+
+                                        <div class="col-12 mt-2">
+                                            <p> I consider myself as a resilient and perseverant person, with a huge
+                                                desire to succeed. I have great adaptability, I like
+                                                be in constant learning and accept new
+                                                challenges, both personally and professionally. I am a person who knows exactly how to
+                                                work as a team and contribute to achieving great goals.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btnModal btn btn-outline-light"
+                                    data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--<Descripción sobre mi-->
+    <section id="aboutMe" class="section1 d-none d-md-block py-4 animated zoomIn delay-2s">
+        <div
+            class="row container my-4 d-flex justify-content-center align-items-center flex-md-column flex-lg-row px-2">
+            <div class="col-md-6 col-lg-4 d-flex pl-lg-5">
+                <img class="rounded-circle img-fluid" src="assets/img/profile pic.png" alt="Imagen de perfil">
+            </div>
+
+            <div class="col-md-10 col-lg-8 mt-md-4 py-3 text-justify pl-5 align-self-center">
+                <p class="paragraph">I am an English teacher from Universidad viña del mar and I have worked as elementary and high school
+                    teacher for 6 years. Now as a way to be prepared for different challenges, I studied to be a frontend
+                    developer through an OTEC called Awakelab sponsored by SENCE. It was a 4 months bootcamp in which I was
+                    prepared to overcome many situations and learn key concepts about Vue js, Javascript among them.
+                </p>
+
+                <p class="paragraph">I consider myself as a resilient and perseverant person, with a huge
+                    desire to succeed. I have great adaptability, I like
+                    be in constant learning and accept new
+                    challenges, both personally and professionally. I am a person who knows exactly how to
+                    work as a team and contribute to achieving great goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Experiencia laboral y estudios-->
+    <section id="myExperience" class="section2 p-5">
+        <div>
+            <div class="d-flex justify-content-center flex-column flex-wrap text-justify px-md-5">
+                <div class="pt-3 pb-5">
+                    <h3 class="text-center font-weight-bold pt-4 pb-5">MY STUDIES</h3>
+                    <img class="imgDesafio img-fluid pb-3" src="assets/img/awake.png"
+                        alt="Logo Awakelab" />
+                    <p class="paragraph">2022, Awakelab program, Front-end developer trainee bootcamp</p>
+                </div>
+
+                <div class="pb-5">
+                    <img class="imgLab img-fluid pb-3" src="assets/img/UVM.png" alt="Logo UVM" />
+                    <p class="paragraph">2011-2016, English pedagogy, Universidad viña del mar</p>
+                </div>
+
+                <div class="d-flex justify-content-center py-3">
+                    <a class="btnSaberMas btn btn-outline-dark btn-block mb-5 font-weight-bold"
+                        href="assets/img/CV Javiera R. A..pdf" target="_blank" role="button" data-toggle="tooltip"
+                        data-placement="top" title="Click here to see my resume">My resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Últimos proyectos realizados-->
+    <section id="myProjects" class="section3 p-5 mb-5">
+        <h3 class="text-center font-weight-bold pt-4">MY PROJECTS</h3>
+        <div class="section3_container container d-flex flex-wrap pb-4">
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/sprint 7.png" class="card-img-top" alt="Imagen Pokedex">
+                <div class="card-body">
+                    <h5 class="card-title">Sprint final 7</h5>
+                    <p class="card-text">A brief page in which you can add courses about Css, Vue Js, etc.</p>
+                </div>
+                <div class="container_badges container text-center">
+                    <span class="badge badge-dark">Vue JS</span>
+                    <span class="badge badge-dark">Vue Router</span>
+                    <span class="badge badge-dark">Bootstrap </span>
+                    <span class="badge badge-dark">Firebase </span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://sprintfinal7.netlify.app/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">See page</a>
+                    <a href="https://github.com/SilverJav/Sprint-final-7" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repository</a>
+                </div>
+            </div>
+            
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/poke.png" class="card-img-top" alt="Imagen Pokedex">
+                <div class="card-body">
+                    <h5 class="card-title">Poke api</h5>
+                    <p class="card-text">A page where you can add and search for pokemon</p>
+                </div>
+                <div class="container_badges container text-center">
+                    <span class="badge badge-dark">Javascript</span>
+                    <span class="badge badge-dark">API Fetch</span>
+                    <span class="badge badge-dark">Vue JS</span>
+                    <span class="badge badge-dark">CSS</span>
+                    <span class="badge badge-dark">Bootstrap </span>
+                    <span class="badge badge-dark">HTML</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://pokeapi-individual.netlify.app/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">See page</a>
+                    <a href="https://github.com/SilverJav/Pokeapi.git"
+                        class="btn btn-outline-dark card-body_btn">Repository</a>
+                </div>
+            </div>
+
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/Sprint final 5 Blog.png" class="card-img-top" alt="Imagen Ricomida">
+                <div class="card-body">
+                    <h5 class="card-title">Sprint final 5 Blog</h5>
+                    <p class="card-text">Blog site about technology</p>
+                </div>
+                <div class="container_badges container text-center">
+                    <span class="badge badge-dark">JavaScript</span>
+                    <span class="badge badge-dark">Bootstrap </span>
+                    <span class="badge badge-dark">CSS</span>
+                    <span class="badge badge-dark">Html</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://silverjav.github.io/Sprint-final-modulo5/index.html" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">See page</a>
+                    <a href="https://github.com/SilverJav/Sprint-final-modulo5" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repository</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/Flowers.png" class="card-img-top" alt="Imagen Barber Shop">
+                <div class="card-body">
+                    <h5 class="card-title">Sprint final 4 Flowershop</h5>
+                    <p class="card-text">A web page to buy flowers
+                    </p>
+                </div>
+                <div class="container_badges container text-center">
+                    <span class="badge badge-dark">Sass</span>
+                    <span class="badge badge-dark">CSS</span>
+                    <span class="badge badge-dark">Html</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://silverjav.github.io/Sprint-final-4-Flowershop/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">See page</a>
+                    <a href="https://github.com/SilverJav/Sprint-final-4-Flowershop" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repository</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/Telovendo.png" class="card-img-top" alt="Imagen Revista Online">
+                <div class="card-body">
+                    <h5 class="card-title">Sprint final 2 Te lo vendo</h5>
+                    <p class="card-text">Tech web page prototype</p>
+                </div>
+                <div class="container_badges container text-center">
+                    <span class="badge badge-dark">CSS</span>
+                    <span class="badge badge-dark">Html</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://silverjav.github.io/Sprint-final-2-Tech-page/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">See page</a>
+                    <a href="https://github.com/SilverJav/Sprint-final-2-Tech-page.git" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repository</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/Date.png" class="card-img-top" alt="Imagen Treek-In">
+                <div class="card-body">
+                    <h5 class="card-title">Date and time</h5>
+                    <p class="card-text">Page to know what time is</p>
+                </div>
+                <div class="container_badges container text-center">
+                    <span class="badge badge-dark">CSS</span>
+                    <span class="badge badge-dark">JavaScript</span>
+                    <span class="badge badge-dark">Html</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://silverjav.github.io/Set-interval-date/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">See page</a>
+                    <a href="https://github.com/SilverJav/Set-interval-date" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repository</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Íconos con redes sociales-->
+    <footer id="socialNetworks" class="align-middle text-center py-5">
+        <div class="container">
+            <a class="swirl-in-fwd" href="mailto:javiera.pazra@gmail.com"><i class="fas fa-envelope"
+                    data-toggle="tooltip" data-placement="top" title="javiera.pazra@gmail.com"></i></a>
+            <a href="https://wa.me/56942049009" target="about_blank"><i class="fab fa-whatsapp" data-toggle="tooltip"
+                    data-placement="top" title="+569 42049009"></i></a>
+            <a href="https://www.linkedin.com/in/javiera-rodr%C3%ADguez-altamirano-709bb513b/" target="about_blank"><i
+                    class="fab fa-linkedin-in" data="target" about="_blank" data-toggle="tooltip" data-placement="top"
+                    title="Visita mi perfil en LinkedIn"></i></a>
+            <a href="https://github.com/SilverJav" target="about_blank" data-toggle="tooltip" data-placement="top"
+                title="Visita mi perfil en Github"><i class="fab fa-github"></i></a>
+
+            <p class="pt-2">© Javiera Rodríguez Altamirano | Front-End Developer</p>
+        </div>
+    </footer>
+
+    <!-- JQuery sin slim, minificado -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous ">
+        </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+
+    <!-- Particles -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/particles.js"></script>
+
+    <!-- Scrollflow -->
+    <script src="assets/js/eskju.jquery.scrollflow.min.js"></script>
+
+    <!-- Mis scripts -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
